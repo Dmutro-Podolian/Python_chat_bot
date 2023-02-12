@@ -1,4 +1,5 @@
 print("Як тебе звати?")
-name = input() 
-print("Привіт, " + name +"! Коли ти народився?")
+def my_function(name):
+    print("Привіт, "+name+"! Коли ти народився?")
+my_function = input() 
 birthday = input()
